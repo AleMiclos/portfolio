@@ -1,0 +1,32 @@
+#contato {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  }
+
+#contato h2 {
+  font-size: 1em;
+  margin-bottom: 20px;
+  color: #8d00d8;
+}
+
+
+.social-links {
+  gap: 10px;
+  list-style: none;
+}
+
+.social-links li a {
+  font-size: 0.5em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+  color: #993333;
+}
+

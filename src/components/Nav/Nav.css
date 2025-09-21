@@ -1,0 +1,27 @@
+.dotNav {
+  position: fixed;
+  top: 50%;
+  right: 20px; /* ou left: 20px se quiser do outro lado */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 1000;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.dot:hover {
+  transform: scale(1.2);
+}
+
+.dot.active {
+  background: #333;
+}
