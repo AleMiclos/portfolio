@@ -5,7 +5,7 @@ import './Header.css';
 import { FaDownload } from "react-icons/fa";
 import ShinyText from "../../blocks/TextAnimations/ShinyText/ShinyText";
 import ShinyHr from "../../blocks/TextAnimations/ShinyHr/ShinyHr";
-import LightRays from "../../blocks/backgrounds/LightRays/LightRays";
+import LightRays from "../../blocks/backgrounds/LightRays/LightRays.jsx";
 import { GoArrowDown } from "react-icons/go";
 
 export default function Header() {
